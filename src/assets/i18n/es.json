@@ -2,5 +2,13 @@
   "titulo" : "Aplicación",
   "inicio": "Inicio",
   "caracteristicas": "Caracteristicas",
-  "precios": "Precios"
+  "precios": "Precios",
+  "carousel": {
+    "titulo-1": "Veterinario",
+    "mensaje-1": "El cuidado de una mascota es un derecho por naturaleza",
+    "titulo-2": "Croquetas",
+    "mensaje-2": "Alimenta correctamente tu mascota con alimentos balanceados",
+    "titulo-3": "Limpieza",
+    "mensaje-3": "Tu mascota debería recibir un baño por lo menos una vez a la semana"
+  }
 }

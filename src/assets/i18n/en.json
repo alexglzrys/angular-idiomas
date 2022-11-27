@@ -2,5 +2,13 @@
   "titulo" : "Application",
   "inicio": "Home",
   "caracteristicas": "Features",
-  "precios": "Pricing"
+  "precios": "Pricing",
+  "carousel": {
+    "titulo-1": "Veterinary",
+    "mensaje-1": "Caring for a pet is a natural right",
+    "titulo-2": "Croquettes",
+    "mensaje-2": "Feed your pet correctly with balanced food",
+    "titulo-3": "Cleaning",
+    "mensaje-3": "Your pet should receive a bath at least once a week."
+  }
 }
