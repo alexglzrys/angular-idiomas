@@ -1,3 +1,6 @@
 {
-  "titulo" : "Aplicación Multi-idioma"
+  "titulo" : "Aplicación",
+  "inicio": "Inicio",
+  "caracteristicas": "Caracteristicas",
+  "precios": "Precios"
 }

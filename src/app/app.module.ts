@@ -8,6 +8,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 // Factory para el cargador de idiomas, los cuales se consiguen haciendo peticiones http a sus archivos correspondientes
 export function cargarArchivosIdiomaJson(http: HttpClient) {
@@ -17,7 +18,8 @@ export function cargarArchivosIdiomaJson(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

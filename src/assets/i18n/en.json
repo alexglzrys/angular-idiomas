@@ -1,3 +1,6 @@
 {
-  "titulo" : "Multi-language Application"
+  "titulo" : "Application",
+  "inicio": "Home",
+  "caracteristicas": "Features",
+  "precios": "Pricing"
 }
