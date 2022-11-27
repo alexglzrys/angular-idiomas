@@ -16,9 +16,9 @@
           <a class="nav-link" href="#">{{ 'precios' | translate }}</a>
         </li>
       </ul>
-      <select name="language" class="form-select d-inline w-auto">
-        <option value="es">ES</option>
-        <option value="en">EN</option>
+      <!-- Generar una variable de plantilla y asociarla con el control de selección -->
+      <select #languageSelector class="form-select d-inline w-auto" (change)="changeLanguage(languageSelector.value)">
+        <option *ngFor="let language of languages" [value]="language">{{ language | uppercase }}</option>
       </select>
     </div>
   </div>
