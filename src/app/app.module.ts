@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 // Factory para el cargador de idiomas, los cuales se consiguen haciendo peticiones http a sus archivos correspondientes
 export function cargarArchivosIdiomaJson(http: HttpClient) {
   // Especificar ruta y extensión de archvo
-  return new TranslateHttpLoader(http, '/src/assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, '../assets/i18n/', '.json');
 }
 
 @NgModule({
